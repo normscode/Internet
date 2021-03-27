@@ -1,0 +1,262 @@
+body *{
+	outline: 1px solid pink;
+	vertical-align: top;
+}
+div.container{
+	background-color: white;
+	width: 970px;
+	height: 970px;
+	margin: 0px auto;
+}
+	div.container div.title{
+		width:970px;
+		height:150px;
+		/*background-color: red;*/
+		font-family: Arial, Helvetica, sans-serif;
+
+	}
+		div.container div.title img{ /*Globel Image*/
+			width: 100px;
+			height: 100px;
+			position: absolute;
+		}
+		div.container div.title h1{ /*The Internet*/
+			width: 830px;
+			height: 20px;
+			margin-left: 100px;
+			padding: 20px;
+
+		}
+			div.container div.title h1 span{
+				color: #3262a1;
+			}
+		div.container div.title h2.bar{ /*The World Wide Web*/
+			width: 930px;
+			height: 26px;
+			background-color: #3b68a4;
+			margin: 0px;
+			color: white;
+			padding: 20px
+		}
+	div.container div.contentleft{
+		width: 260px;
+		min-height: 600px;
+		/*background-color: red;*/
+		display: inline-block;
+		padding: 10px;
+	}
+		div.container div.contentleft h3{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+			div.container div.contentleft h3 span{
+				color: red;
+			}
+		div.container div.contentleft h4{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+			div.container div.contentleft h4 span{
+				color: blue;
+			}
+		div.container div.contentleft div.bluebuttom{
+			font-family: Arial, Helvetica, sans-serif;
+			width: 170px;
+			height: 30px;
+			background-color: #3b68a4;
+			display: inline-block;
+			border-radius: 10px;
+			margin-top: 10px;
+			margin-left: 20PX;
+			color: white;
+			padding-top: 10px;
+			padding-left: 50px;
+			box-shadow: black 3px 5px;
+		}
+		div.container div.contentleft div.orangebuttom{
+			font-family: Arial, Helvetica, sans-serif;
+			width: 180px;
+			height: 30px;
+			background-color: #e59d19;
+			display: inline-block;
+			border-radius: 10px;
+			margin-top: 10px;
+			margin-left: 20PX;
+			color: white;
+			padding-top: 10px;
+			padding-left: 40px;
+			box-shadow: black 3px 5px;
+		}
+			div.container div.contentleft div.line{
+				width: 250px;
+				height: 2px;
+				background-color: grey;
+				display: inline-block;
+				margin-top: 20px;
+				margin-left: 10px;
+				margin-right: 10px;
+				margin-bottom: 20px;
+			}
+			div.container div.contentleft img.background{
+				width: 220px;
+				height: 350px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			div.container div.contentleft h3.text1{
+				width: 200px;
+				height: 60px;
+				color: white;
+				font-family: Arial, Helvetica, sans-serif;
+				position: absolute;
+				top: 450px;
+				text-align: center;
+				margin: 30px;
+			}
+			div.container div.contentleft img.ninja{
+				width: 100px;
+				margin-left: 20px;
+				margin-right: 20px;
+				position: absolute;
+				top:560px;
+				margin-right: 80px;
+				margin-left: 80px;
+				display: block;
+			}
+			div.container div.contentleft div.learnmore{
+				font-family: Arial, Helvetica, sans-serif;
+				width: 145px;
+				height: 30px;
+				background-color: #5dc5dc;
+				display: block;
+				border-radius: 10px;
+				margin-top: 10px;
+				margin-left: 30PX;
+				color: white;
+				padding-top: 10px;
+				padding-left: 50px;
+				box-shadow: black 3px 5px;
+				position: absolute;
+				top:720px;
+			}
+	div.container div.contentright{
+		width: 660px;
+		min-height: 600px;
+		/*background-color: green;*/
+		display: inline-block;
+	}
+		div.container div.contentright div.righthead{
+			width: 660px;
+			min-height: 80px;
+			/*background-color: blue;*/
+
+		}
+		div.container div.contentright div.line{
+			width: 660px;
+			height: 1px;
+			background-color: grey;
+		}
+		div.container div.contentright h3{ /*clients and services*/
+			width: 660px;
+			height: 20px;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: 5px;
+			color: #3b68a4;
+			margin-bottom: 10px;
+		}
+		div.container div.contentright h4{
+			width: 660px;
+			height: 20px;
+			margin: 1px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: lighter;
+		}
+			div.container div.contentright h4 span.keyword{
+				color: #4dbedb;
+			}
+			div.container div.contentright h4 span.highlight{
+				font-weight: bold;
+			}
+			div.container div.contentright ul{
+				margin-top: 10px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			div.container div.contentright ol{
+				margin-top: 10px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+					div.container div.contentright ul li span{
+					color: #4dbedb;
+					}
+					div.container div.contentright ol li span{
+					color: #4dbedb;
+					}
+			div.container div.contentright img.diagram{
+				height: 100px;
+				margin-left: 200px;
+			}
+			div.container div.contentright div.righthead img.homeicon{
+				width: 20px;
+				min-height: 20px;
+				display: inline-block;
+				margin-top: 15px;
+			}
+			div.container div.contentright div.righthead p{
+				width: 400px;
+				min-height: 20px;
+				display: inline-block;
+			}
+			div.container div.contentright div.righthead img.phoneicon{
+				width: 50px;
+				min-height: 50px;
+				display: inline-block;
+				margin-top: 15px;
+			}
+			div.container div.contentright div.righthead div.contactbox{
+				width: 170px;
+				height: 70px;
+				display: inline-block;
+				text-align: center;
+				padding-top: 10px;
+			}
+			div.container div.contentright div.righthead div.contactbox h6{
+				width: 150px;
+				height: 15px;
+				display: inline-block;
+				margin: 1px
+			}
+			div.container div.contentright div.righthead div.contactbox h2{
+				width: 150px;
+				min-height: 20px;
+				display: inline-block;
+				margin: 1px;
+				color: #4dbedb;
+			}
+		div.container div.contentright div.bluebox{
+			margin: auto;
+			width: 600px;
+			height: 200px;
+			border: 5px solid blue;
+		}
+		div.container div.contentright div.bluebox img.big3{
+			width: 130px;
+			margin: 5px;
+			display: inline-block;
+		}
+		div.container div.contentright div.bluebox div.blueboxright{
+			width: 440px;
+			margin: 5px;
+			display: inline-block;
+		}
+		div.container div.contentright div.bluebox div.blueboxright h3{
+			width: 400px;
+			height: 30px;
+			margin: 5px;
+		}
+		div.container div.contentright div.bluebox div.blueboxright p{
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 4px;
+		}
+		div.container div.contentright div.bluebox div.blueboxright p span{
+			color: #4dbedb;
+		}
+			
+
